@@ -1,0 +1,23 @@
+{
+  "name": "swl-proxy",
+  "version": "1.0.0",
+  "description": "proxy of all 3 components",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghrsea-express/SWL_proxy.git"
+  },
+  "author": "senwlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghrsea-express/SWL_proxy/issues"
+  },
+  "homepage": "https://github.com/ghrsea-express/SWL_proxy#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  }
+}
