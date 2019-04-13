@@ -4,7 +4,8 @@
   "description": "proxy of all 3 components",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "node server/index.js",
+    "start-nodemon": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
